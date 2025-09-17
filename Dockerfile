@@ -18,3 +18,5 @@ RUN apt-get update && apt-get install -y \
 
 # Define the default command
 CMD ["echo", "Hello from Docker image!"]
+CMD ["python3", "my_script.py"]
+
